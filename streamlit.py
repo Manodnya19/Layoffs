@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.cluster import KMeans
-from sklearn.linear_model import LinearRegression
-import xgboost as xgb
-from sklearn.model_selection import train_test_split
-import geopandas as gpd
+# from sklearn.cluster import KMeans
+# from sklearn.linear_model import LinearRegression
+# import xgboost as xgb
+# from sklearn.model_selection import train_test_split
+# import geopandas as gpd
 import plotly.express as px
 import plotly.graph_objects as go  # Import this for heatmap
-from wordcloud import WordCloud
+# from wordcloud import WordCloud
 
 # Caching data loading function to optimize performance
 @st.cache
